@@ -2,14 +2,37 @@ ul,p{
 	margin: 0;
 	padding: 0;
 }
-
-.header{
-	background: url(../img/bg_header2.jpg);
+.header, .footer{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	height: 350px;
 	text-align: center;
+}
+.footer{
+	background: url(../img/bg_footer.jpg) 
+}
+.footer div{
+	display: inline-block;
+	width: 45%;
+}
+.footer .form_contacto input, .form_contacto textarea{
+	border: none;
+	border-radius: 15px;
+	display: block;
+	margin: 0.5em;
+	outline: 0;
+	padding: 0.3em 1em;
+}
+.footer .form_contacto button{
+	display: block;
+	background: #FF7900;
+	border: none;
+	border-radius: 15px;
+	padding: 0.5em 1em;
+}
+.header{
+	background: url(../img/bg_header2.jpg);
 }
 .header .img_avatar{
 	border: 5px solid white;
@@ -23,6 +46,49 @@ ul,p{
 .header p:last-child{
 	color: white;
 	font-size: 2em;
+}
+.perfil{
+	text-align: center;
+	padding: 0 4em;
+}
+.perfil .botones{
+	margin: 2em 0;
+}
+.perfil .botones .btn{
+	border-radius: 20px;
+	color: white;
+	font-size: 1.3em;
+	margin: 0 0.5em;
+	padding: 0.4em 1em 0.4em 2.5em;
+	text-decoration: none;
+}
+.perfil .botones .btn_html{
+	background: #FF7900;
+}
+.perfil .botones .btn_twitter{
+	background: #03BBE5;
+}
+.perfil .botones .btn_face{
+	background: #0582C1;
+}
+.titulo_sec{
+	color: #00DBFF;
+	border-bottom: 2px dashed #00D8FF;
+	font-size: 1.5em;
+	padding: 0.5em 0;
+	margin-bottom: 1.5em;
+}
+.trabajos{
+	text-align: center;
+}
+.trabajos .item{
+	vertical-align: top;
+	display: inline-block;
+	width: 250px;
+	padding: 1em;
+}
+.trabajos .item img{
+	margin-bottom: 0.3em;
 }
 .nav{
 	background: #1E1E1E;
